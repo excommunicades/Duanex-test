@@ -44,7 +44,6 @@ def take_animal(json_file: str) -> Union[str, None]:
         print("File decoding error was occured")
         return None
 
-
 if __name__ == "__main__":
 
     take_animal('json.json')
